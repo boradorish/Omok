@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0648192A1C6F5D00C6870E /* OmokApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0648182A1C6F5D00C6870E /* OmokApp.swift */; };
+		AC06481B2A1C6F5D00C6870E /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06481A2A1C6F5D00C6870E /* GameView.swift */; };
+		AC06481D2A1C6F5D00C6870E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC06481C2A1C6F5D00C6870E /* Assets.xcassets */; };
+		AC0648202A1C6F5D00C6870E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC06481F2A1C6F5D00C6870E /* Preview Assets.xcassets */; };
+		AC0648272A1CC32100C6870E /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0648262A1CC32000C6870E /* GameViewModel.swift */; };
+		AC0648292A28A6B500C6870E /* OmokButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0648282A28A6B500C6870E /* OmokButton.swift */; };
+		AC4C97F22A4412DA0075F9AA /* OmokButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4C97F12A4412DA0075F9AA /* OmokButtonViewModel.swift */; };
+		ACF13A322A594B9800107D0B /* GameTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF13A312A594B9800107D0B /* GameTheme.swift */; };
+		ACF13A342A594D9F00107D0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF13A332A594D9F00107D0B /* ContentView.swift */; };
+		ACF13A362A594E2D00107D0B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF13A352A594E2D00107D0B /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC0648152A1C6F5C00C6870E /* Omok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Omok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0648182A1C6F5D00C6870E /* OmokApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmokApp.swift; sourceTree = "<group>"; };
+		AC06481A2A1C6F5D00C6870E /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		AC06481C2A1C6F5D00C6870E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC06481F2A1C6F5D00C6870E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC0648262A1CC32000C6870E /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		AC0648282A28A6B500C6870E /* OmokButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmokButton.swift; sourceTree = "<group>"; };
+		AC4C97F12A4412DA0075F9AA /* OmokButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmokButtonViewModel.swift; sourceTree = "<group>"; };
+		ACF13A312A594B9800107D0B /* GameTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTheme.swift; sourceTree = "<group>"; };
+		ACF13A332A594D9F00107D0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACF13A352A594E2D00107D0B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC0648122A1C6F5C00C6870E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC06480C2A1C6F5C00C6870E = {
+			isa = PBXGroup;
+			children = (
+				AC0648172A1C6F5C00C6870E /* Omok */,
+				AC0648162A1C6F5C00C6870E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC0648162A1C6F5C00C6870E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC0648152A1C6F5C00C6870E /* Omok.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC0648172A1C6F5C00C6870E /* Omok */ = {
+			isa = PBXGroup;
+			children = (
+				AC0648182A1C6F5D00C6870E /* OmokApp.swift */,
+				AC06481A2A1C6F5D00C6870E /* GameView.swift */,
+				ACF13A332A594D9F00107D0B /* ContentView.swift */,
+				ACF13A352A594E2D00107D0B /* SettingsView.swift */,
+				ACF13A312A594B9800107D0B /* GameTheme.swift */,
+				AC0648262A1CC32000C6870E /* GameViewModel.swift */,
+				AC0648282A28A6B500C6870E /* OmokButton.swift */,
+				AC4C97F12A4412DA0075F9AA /* OmokButtonViewModel.swift */,
+				AC06481C2A1C6F5D00C6870E /* Assets.xcassets */,
+				AC06481E2A1C6F5D00C6870E /* Preview Content */,
+			);
+			path = Omok;
+			sourceTree = "<group>";
+		};
+		AC06481E2A1C6F5D00C6870E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC06481F2A1C6F5D00C6870E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC0648142A1C6F5C00C6870E /* Omok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0648232A1C6F5D00C6870E /* Build configuration list for PBXNativeTarget "Omok" */;
+			buildPhases = (
+				AC0648112A1C6F5C00C6870E /* Sources */,
+				AC0648122A1C6F5C00C6870E /* Frameworks */,
+				AC0648132A1C6F5C00C6870E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Omok;
+			productName = Omok;
+			productReference = AC0648152A1C6F5C00C6870E /* Omok.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC06480D2A1C6F5C00C6870E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AC0648142A1C6F5C00C6870E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = AC0648102A1C6F5C00C6870E /* Build configuration list for PBXProject "Omok" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC06480C2A1C6F5C00C6870E;
+			productRefGroup = AC0648162A1C6F5C00C6870E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0648142A1C6F5C00C6870E /* Omok */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC0648132A1C6F5C00C6870E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0648202A1C6F5D00C6870E /* Preview Assets.xcassets in Resources */,
+				AC06481D2A1C6F5D00C6870E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC0648112A1C6F5C00C6870E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0648272A1CC32100C6870E /* GameViewModel.swift in Sources */,
+				ACF13A362A594E2D00107D0B /* SettingsView.swift in Sources */,
+				ACF13A322A594B9800107D0B /* GameTheme.swift in Sources */,
+				ACF13A342A594D9F00107D0B /* ContentView.swift in Sources */,
+				AC0648292A28A6B500C6870E /* OmokButton.swift in Sources */,
+				AC4C97F22A4412DA0075F9AA /* OmokButtonViewModel.swift in Sources */,
+				AC06481B2A1C6F5D00C6870E /* GameView.swift in Sources */,
+				AC0648192A1C6F5D00C6870E /* OmokApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC0648212A1C6F5D00C6870E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC0648222A1C6F5D00C6870E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC0648242A1C6F5D00C6870E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Omok/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RG33MNF8J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snulife.Omok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC0648252A1C6F5D00C6870E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Omok/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RG33MNF8J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snulife.Omok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC0648102A1C6F5C00C6870E /* Build configuration list for PBXProject "Omok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0648212A1C6F5D00C6870E /* Debug */,
+				AC0648222A1C6F5D00C6870E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0648232A1C6F5D00C6870E /* Build configuration list for PBXNativeTarget "Omok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0648242A1C6F5D00C6870E /* Debug */,
+				AC0648252A1C6F5D00C6870E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC06480D2A1C6F5C00C6870E /* Project object */;
+}
